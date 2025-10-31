@@ -1,0 +1,21 @@
+import { init as commandHandlerInit } from './commandHandler.js'
+import { init as fileSystemInit } from './fileSystem.js'
+import { init as processManagerInit } from './processManager.js'
+import { init as envManagerInit } from './envManager.js'
+import { init as packageManagerInit } from './packageManager.js'
+import { init as userManagerInit } from './userManager.js'
+import { init as networkManagerInit } from './networkManager.js'
+import { init as projectManagerInit } from './projectManager.js'
+import { init as uiManagerInit } from './uiManager.js'
+import { init as logSystemInit } from './logSystem.js'
+
+export const commandHandler = { init: commandHandlerInit }
+export const fileSystem = { init: fileSystemInit }
+export const processManager = { init: processManagerInit }
+export const envManager = { init: envManagerInit }
+export const packageManager = { init: packageManagerInit }
+export const userManager = { init: userManagerInit }
+export const networkManager = { init: networkManagerInit }
+export const projectManager = { init: projectManagerInit }
+export const uiManager = { init: uiManagerInit }
+export const logSystem = { init: logSystemInit }
